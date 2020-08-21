@@ -12,6 +12,9 @@ body {
     font-size: 1rem;
     margin: 0;
     padding: 0;
+    background-image: url('Terminal_Combat.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -30,6 +33,7 @@ span {
 .container {
     width: 600px;
     margin: 0 auto;
+    background-color: rgba(250, 235, 215, 0.815);
 }
 
 /********   Input ********/
@@ -58,6 +62,12 @@ span {
 
 .fields input {
     margin: 5px;
+}
+.name{
+    text-transform: capitalize;
+}
+.placeholder.verb.first{
+    text-transform: capitalize;
 }
 
 button {
