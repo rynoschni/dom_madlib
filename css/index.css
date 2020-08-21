@@ -13,3 +13,55 @@ body {
     margin: 0;
     padding: 0;
 }
+
+h1 {
+    text-align: center
+}
+
+span {
+    background-color: yellow;
+}
+
+.hide {
+    display: none;
+}
+
+/********   Story *******/
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/********   Input ********/
+
+.form-container {
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.fields label {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.fields input {
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+}

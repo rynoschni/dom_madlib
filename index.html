@@ -11,29 +11,48 @@
 <body>
     <h1>DOM Madlib</h1>
     <div class="container">
-        <p>
-            <div class="noun"></div>
-            <div class="noun"></div>
-            <div class="noun"></div>
-            <div class="noun"></div>
-            <div class="verb"></div>
-            <div class="verb"></div>
-            <div class="verb"></div>
-            <div class="verb"></div>
+        <p>There is a <span class="placeholder noun"></span> that wonders the land, <span
+                class="placeholder adj"></span> and <span class="placeholder adj"></span>. It will constantly <span
+                class="placeholder verb"></span>, always needing something more. It will <span
+                class="placeholder verb"></span> <span class="placeholder adj"></span> as it searches for <span
+                class="placeholder noun"></span>. When it finds what it is looking for it will <span
+                class="placeholder verb"></span> and is still not happy. So it decides to go <span
+                class="placeholder verb"></span>.<br>
+            A <span class="placeholder noun"></span> comes along and is <span class="placeholder adj"></span>. Yelrac
+            Zil defeats Snake Jodgel with a <span class="placeholder noun"></span>.
         </p>
     </div>
-    <form>
-        <input type="text" class="nounInput"></input>
-        <input type="text" class="nounInput"></input>
-        <input type="text" class="nounInput"></input>
-        <input type="text" class="nounInput"></input>
-        <input type="text" class="verbInput"></input>
-        <input type="text" class="verbInput"></input>
-        <input type="text" class="verbInput"></input>
-        <input type="text" class="verbInput"></input>
-    </form>
+    <div class="form-container">
+        <p>Input up to four of the following to receive a really cool madlib</p>
+        <form>
+            <div class="fields">
+                <label>Nouns</label>
+                <input type="text" class="noun-input"></input>
+                <input type="text" class="noun-input"></input>
+                <input type="text" class="noun-input"></input>
+                <input type="text" class="noun-input"></input>
+            </div>
+            <div class="fields">
+                <label>Adjectives</label>
+                <input type="text" class="adj-input"></input>
+                <input type="text" class="adj-input"></input>
+                <input type="text" class="adj-input"></input>
+                <input type="text" class="adj-input"></input>
+            </div>
+            <div class="fields">
+                <label>Verbs</label>
+                <input type="text" class="verb-input"></input>
+                <input type="text" class="verb-input"></input>
+                <input type="text" class="verb-input"></input>
+                <input type="text" class="verb-input"></input>
+            </div>
 
-    <script src="index.js"></script>
+        </form>
+        <button type="button" id="submit">Play Your Story</button>
+        <button type="button" id="random">Generate Random Story</button>
+    </div>
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
